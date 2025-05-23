@@ -1,0 +1,3 @@
+../Core/Src/app_fsm.c:14:13:enterStop	1
+../Core/Src/app_fsm.c:29:6:fsmEventButton	1
+../Core/Src/app_fsm.c:34:6:fsmRun	2
