@@ -1,0 +1,13 @@
+../Core/Src/main.c:76:6:blinkTask	1
+../Core/Src/main.c:81:6:tempTask	1
+../Core/Src/main.c:99:5:main	4
+../Core/Src/main.c:161:6:SystemClock_Config	3
+../Core/Src/main.c:207:13:MX_ADC1_Init	3
+../Core/Src/main.c:259:13:MX_TIM2_Init	4
+../Core/Src/main.c:302:13:MX_DMA_Init	1
+../Core/Src/main.c:320:13:MX_GPIO_Init	1
+../Core/Src/main.c:356:6:HAL_TIM_PeriodElapsedCallback	1
+../Core/Src/main.c:364:6:HAL_ADC_ConvCpltCallback	3
+../Core/Src/main.c:382:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:388:13:enterStop	1
+../Core/Src/main.c:408:6:Error_Handler	1
