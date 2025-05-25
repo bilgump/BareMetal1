@@ -77,17 +77,17 @@ __attribute__((weak)) int _read(int file, char *ptr, int len)
   return len;
 }
 
-__attribute__((weak)) int _write(int file, char *ptr, int len)
-{
-  (void)file;
-  int DataIdx;
-
-  for (DataIdx = 0; DataIdx < len; DataIdx++)
-  {
-    __io_putchar(*ptr++);
-  }
-  return len;
-}
+//__attribute__((weak)) int _write(int file, char *ptr, int len)
+//{
+//  (void)file;
+//  int DataIdx;
+//
+//  for (DataIdx = 0; DataIdx < len; DataIdx++)
+//  {
+//    __io_putchar(*ptr++);
+//  }
+//  return len;
+//}
 
 int _close(int file)
 {
@@ -173,4 +173,14 @@ int _execve(char *name, char **argv, char **env)
   (void)env;
   errno = ENOMEM;
   return -1;
+}
+
+// syscalls.c
+int _write(int fd, char *buf, int len)
+{
+	if(fd == 1 || fd == 2){ //stdout or stderr
+		CDC_Transmit_NonBlocking((uint8_t *)buf, len);
+		return len;
+	}
+	return 0;
 }

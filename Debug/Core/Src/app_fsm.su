@@ -1,3 +1,0 @@
-../Core/Src/app_fsm.c:14:13:enterStop	8	static
-../Core/Src/app_fsm.c:29:6:fsmEventButton	4	static
-../Core/Src/app_fsm.c:34:6:fsmRun	8	static

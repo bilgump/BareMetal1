@@ -1,4 +1,4 @@
-Core/Src/app_fsm.o: ../Core/Src/app_fsm.c ../Core/Inc/app_fsm.h \
+Core/App/app_fsm.o: ../Core/App/app_fsm.c ../Core/App/app_fsm.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -32,7 +32,7 @@ Core/Src/app_fsm.o: ../Core/Src/app_fsm.c ../Core/Inc/app_fsm.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
-../Core/Inc/app_fsm.h:
+../Core/App/app_fsm.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:

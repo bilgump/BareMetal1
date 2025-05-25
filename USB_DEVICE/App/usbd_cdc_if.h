@@ -109,6 +109,16 @@ uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 /* USER CODE BEGIN EXPORTED_FUNCTIONS */
 
+/**
+ * @brief  Non blocking Transmit function
+ *
+ * @param  p: data to be sent
+ * @param  len: length of the data to be sent
+ * @retval Result of the operation: USBD_OK if all operations are OK else USBD_BUSY
+ */
+uint8_t CDC_Transmit_NonBlocking(const uint8_t *p, uint16_t len);
+
+//int _write(int fd, char *buf, int len);
 /* USER CODE END EXPORTED_FUNCTIONS */
 
 /**

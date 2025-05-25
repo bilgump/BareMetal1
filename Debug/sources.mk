@@ -22,8 +22,12 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Core/App \
+Core/GPIOHandle \
+Core/SideTasks \
 Core/Src \
 Core/Startup \
+Core/USBHandle \
 Drivers/STM32F4xx_HAL_Driver/Src \
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src \
 Middlewares/ST/STM32_USB_Device_Library/Core/Src \

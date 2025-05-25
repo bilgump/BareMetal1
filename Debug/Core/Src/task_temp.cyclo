@@ -1,3 +1,0 @@
-../Core/Src/task_temp.c:8:13:tempPrintTask	1
-../Core/Src/task_temp.c:13:6:tempCB	2
-../Core/Src/task_temp.c:29:6:taskTempInit	1

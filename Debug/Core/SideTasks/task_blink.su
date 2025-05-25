@@ -1,0 +1,2 @@
+../Core/SideTasks/task_blink.c:5:6:blinkCB	8	static
+../Core/SideTasks/task_blink.c:10:6:taskBlinkInit	8	static
