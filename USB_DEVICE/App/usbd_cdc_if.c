@@ -30,6 +30,7 @@
 /* Private macro -------------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+#define TX_BUF_SIZE 		256
 /* Private variables ---------------------------------------------------------*/
 static uint8_t txBuf[TX_BUF_SIZE] = {0};
 //head -> write index. tail -> read index

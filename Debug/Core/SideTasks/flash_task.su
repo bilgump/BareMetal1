@@ -1,0 +1,2 @@
+../Core/SideTasks/flash_task.c:13:13:flashCB	24	static
+../Core/SideTasks/flash_task.c:29:6:task_flash_init	8	static

@@ -4,5 +4,5 @@
 ../USB_DEVICE/App/usbd_cdc_if.c:264:15:CDC_Receive_FS	1
 ../USB_DEVICE/App/usbd_cdc_if.c:284:9:CDC_Transmit_FS	2
 ../USB_DEVICE/App/usbd_cdc_if.c:310:15:CDC_TransmitCplt_FS	1
-../USB_DEVICE/App/usbd_cdc_if.c:325:9:CDC_Transmit_NonBlocking	3
-../USB_DEVICE/App/usbd_cdc_if.c:342:13:flush_tx_fifo	5
+../USB_DEVICE/App/usbd_cdc_if.c:326:9:CDC_Transmit_NonBlocking	3
+../USB_DEVICE/App/usbd_cdc_if.c:343:13:flush_tx_fifo	5

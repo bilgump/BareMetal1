@@ -1,0 +1,7 @@
+../Core/flash_SPI/flash_w25q16.c:11:13:txrx	2
+../Core/flash_SPI/flash_w25q16.c:19:13:writeEnable	2
+../Core/flash_SPI/flash_w25q16.c:33:6:W25Q16_Init	1
+../Core/flash_SPI/flash_w25q16.c:40:6:W25Q16_readID	3
+../Core/flash_SPI/flash_w25q16.c:59:6:W25Q16_Read	3
+../Core/flash_SPI/flash_w25q16.c:73:6:W25Q16_PageProgram	5
+../Core/flash_SPI/flash_w25q16.c:95:6:W25Q16_Erase4K	3

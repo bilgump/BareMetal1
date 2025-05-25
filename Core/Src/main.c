@@ -27,6 +27,7 @@
 #include "scheduler.h"
 #include "task_blink.h"
 #include "task_temp.h"
+#include "flash_task.h"
 #include "app_fsm.h"
 /* USER CODE END Includes */
 
@@ -106,10 +107,13 @@ int main(void)
   MX_TIM2_Init();
   MX_ADC1_Init();
   MX_USB_DEVICE_Init();
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);   // keep /CS high
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 	HAL_TIM_Base_Start_IT(&htim2);
-	HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcBuf, sizeof(adcBuf) / 2);
+	//HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcBuf, sizeof(adcBuf) / 2);
+	W25Q16_Init(&hspi1);                                  // flash present? → true
+	task_flash_init();
 
   /* USER CODE END 2 */
 

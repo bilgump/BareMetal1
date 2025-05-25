@@ -48,6 +48,7 @@
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.936216770" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/App"/>
+									<listOptionValue builtIn="false" value="../Core/flash_SPI"/>
 									<listOptionValue builtIn="false" value="../Core/GPIOHandle"/>
 									<listOptionValue builtIn="false" value="../Core/SideTasks"/>
 									<listOptionValue builtIn="false" value="../Core/USBHandle"/>
