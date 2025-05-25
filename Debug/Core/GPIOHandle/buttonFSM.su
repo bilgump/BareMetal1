@@ -1,0 +1,5 @@
+../Core/GPIOHandle/buttonFSM.c:16:13:buttonLogic	24	static
+../Core/GPIOHandle/buttonFSM.c:40:6:taskButtonInit	8	static
+../Core/GPIOHandle/buttonFSM.c:46:6:buttonPoll	16	static
+../Core/GPIOHandle/buttonFSM.c:84:6:buttonPressed	16	static
+../Core/GPIOHandle/buttonFSM.c:91:6:buttonReleased	16	static

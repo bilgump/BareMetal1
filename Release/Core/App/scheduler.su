@@ -1,0 +1,3 @@
+../Core/App/scheduler.c:7:6:schedulerAdd	16	static
+../Core/App/scheduler.c:24:6:schedulerRemove	8	static
+../Core/App/scheduler.c:35:6:schedulerRun	16	static

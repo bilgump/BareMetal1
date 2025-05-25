@@ -28,8 +28,8 @@ void tempCB(void)
 
 void taskTempInit(void)
 {
-	static sched_task_t t = {.periodMS = 1000, .cb = tempCB};
+	static sched_task_t t = {.periodMS = 1000, .cb = tempCB, .taskID = TASK_TEMP};
 	schedulerAdd(&t);
-	static sched_task_t t2 = {.periodMS = 1000, .cb = tempPrintTask};
-	schedulerAdd(&t2);
+	//static sched_task_t t2 = {.periodMS = 1000, .cb = tempPrintTask};
+	//schedulerAdd(&t2);
 }

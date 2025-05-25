@@ -28,6 +28,6 @@ static void flashCB(void)
 
 void task_flash_init(void)
 {
-	static sched_task_t t = {.periodMS = 2000, .cb = flashCB};
+	static sched_task_t t = {.periodMS = 2000, .cb = flashCB, .taskID = TASK_FLASH};
 	schedulerAdd(&t);
 }

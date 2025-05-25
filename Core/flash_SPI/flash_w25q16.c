@@ -6,7 +6,6 @@ static SPI_HandleTypeDef *hspi;
 static bool writeEnable(void);
 static bool txrx(const uint8_t *tx, uint8_t *rx, size_t n);
 
-
 /*------------------------------- STATIC FUNCTIONS ------------------------------------ */
 static bool txrx(const uint8_t *tx, uint8_t *rx, size_t n)
 {
